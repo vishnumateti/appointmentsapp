@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 10px;
+  width: 280px;
+  padding: 7px;
+}
+.name-section {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.button {
+  border: 0px none transparent;
+  background: transparent;
+}
+.star-image {
+  height: 40px;
+  width: 40px;
+}
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 768px) {
+  .list-container {
+    list-style-type: none;
+    border: 1px solid #b5b7c4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  .heading {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 16px;
+  }
+  .star-image {
+    height: 30px;
+    width: 30px;
+  }
+  .date {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+}
